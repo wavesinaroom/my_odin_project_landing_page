@@ -46,3 +46,39 @@ li{
   justify-content: flex-start;
   align-items: flex-start;
 }
+
+/*IMAGES SECTION 2*/
+
+.random-info {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1F2937;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+}
+
+.illustration {
+  display: flex;
+  flex-direction: column;
+}
+
+.testimonial {
+  background-color: #E5E7EB;
+  display: flex;
+  flex-direction: column;
+  align-content: flex-end;
+}
+
+.quote {
+  font-size: 36px;
+  font-style: italic;
+  color: #1F2937;
+}
+
+.author {
+  font-size: 16px;
+  font-weight: bolder;
+}
