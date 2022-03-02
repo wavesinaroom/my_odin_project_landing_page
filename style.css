@@ -47,6 +47,11 @@ li{
   align-items: flex-start;
 }
 
+.header-bottom {
+  display: flex;
+  justify-content: space-around; 
+}
+
 /*IMAGES SECTION 2*/
 
 .random-info {
