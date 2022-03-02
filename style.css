@@ -83,6 +83,17 @@ li{
   font-weight: bolder;
 }
 
+.blue-panel {
+  display: flex;
+  background-color: #3882F6;
+  color: #E5E7EB;
+}
+
+.blue-panel .call-sign-up
+{
+  background-color: inherit;
+  color: inherit;
+}
 
 /*FOOTER*/
 
