@@ -63,6 +63,14 @@ li{
 .gallery {
   display: flex;
   justify-content: center;
+  gap: 30px; 
+}
+
+.random-info,
+.gallery{
+  display: flex;
+  justify-content: center;
+  padding: 150px;
 }
 
 .illustration {
@@ -74,7 +82,7 @@ li{
   background-color: #E5E7EB;
   display: flex;
   flex-direction: column;
-  padding: 250px; 
+  padding: 250px;
 }
 
 .quote {
