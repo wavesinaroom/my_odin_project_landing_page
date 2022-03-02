@@ -7,21 +7,75 @@ footer {
   background-color: #1F2937;
 }
 
-/*HEADER SECTION*/
+
+
+/*HEADER TOP*/
 a{
-  color: orange;
+  color: #E5E7EB;
   text-decoration: none;
 }
 
 li{
   display: inline;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
-.header-top {
+.header-top{
+  padding-left: 150px;
+  padding-right: 150px;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
+  align-items: center;
 }
 
+#header-logo{
+  font-size: 24px;
+  color: #F9FAF8;
+}
+
+/*HEADER BOTTOM*/
+#juan-waves-in-a-room{
+    max-width: 250px;
+    max-height: auto;
+    border-radius: 80%;
+}
+
+#main-text{
+  font-size: 48px;
+  font-weight: bolder;
+  color: #F9FAF8;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#secondary-text{
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.header-bottom {
+  display: flex;
+  padding: 150px;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+.header-bottom-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+button{
+  background-color: #3882F6;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  width: 100px;
+}
+/*
 .main-text{
   color: #F9FAF8;
   font-size: 48px;
@@ -40,19 +94,9 @@ li{
   justify-content: flex-start;
 }
 
-.header-bottom-left {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-}
 
-.header-bottom {
-  display: flex;
-  justify-content: space-around;
-}
 
-/*IMAGES SECTION 2*/
+
 
 .random-info {
   font-size: 36px;
@@ -63,7 +107,7 @@ li{
 .gallery {
   display: flex;
   justify-content: center;
-  gap: 30px; 
+  gap: 30px;
 }
 
 .random-info,
@@ -102,13 +146,12 @@ li{
   color: #E5E7EB;
 }
 
-.blue-panel .call-sign-up
+button
 {
-  background-color: inherit;
-  color: inherit;
+  background-color: #3882F6;
+  color: #E5E7EB;
 }
 
-/*FOOTER*/
 
 footer {
   background-color: #1F2937;
@@ -119,3 +162,4 @@ footer {
   display: flex;
   justify-content: center;
 }
+*/
