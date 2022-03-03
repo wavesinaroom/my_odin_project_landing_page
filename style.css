@@ -34,6 +34,11 @@ li{
 
 /*HEADER TOP*/
 
+#header-logo{
+  font-size: 24px;
+  color: #F9FAF8;
+}
+
 .header-top{
   padding-left: 150px;
   padding-right: 150px;
@@ -42,10 +47,6 @@ li{
   align-items: center;
 }
 
-#header-logo{
-  font-size: 24px;
-  color: #F9FAF8;
-}
 
 /*HEADER BOTTOM*/
 #juan-waves-in-a-room{
@@ -145,4 +146,20 @@ li{
   color: inherit;
   font-weight: bold;
   font-size: 25px;
+}
+
+/*BLUE PANEL*/
+
+.blue-panel {
+  display: flex;
+  background-color: #3882F6;
+  justify-content: space-between;
+  padding: 100px;
+  border: white 300px solid;
+  align-items: center;
+}
+
+#blue-panel-button {
+  border: white 1px ridge;
+  height: 40px;
 }
